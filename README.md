@@ -5,8 +5,4 @@
 🚀Feel free to visit [the website](https://sslis.github.io/DCHM-template/)if you would like to learn and know more about the project.
 
 ## About the Developer
-This repository was originally developed by [Jana Zickler](https://github.com/janazickler) and Ranka Gest as students in the Digitising Cultural Heritage Materials course at the  [University of Boras](https://www.hb,.se).
-
-
-An example of what the template can turn into can be found in Wout's [DIY-frankensTEIn](https://woutdln.github.io/DIY-frankensTEIn/index.html) repository.
-For more information on the template and how to get started yourself, please refer to [the repository's wiki](https://github.com/WoutDLN/DCHM-template/wiki).  
+This repository was originally developed by [Jana Zickler](https://github.com/janazickler) and Ranka Gest as students in the Digitising Cultural Heritage Materials course at the  [University of Boras](https://www.hb.se/en/).
