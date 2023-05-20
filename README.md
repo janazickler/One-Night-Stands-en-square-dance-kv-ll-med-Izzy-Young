@@ -5,4 +5,4 @@
 🚀Feel free to visit [the website](https://sslis.github.io/DCHM-template/)if you would like to learn and know more about the project.
 
 ## About the Developer
-This repository was originally developed by <a href=https://github.com/janazickler">Jana Zickler</a> and Ranka Gest as students in the Digitising Cultural Heritage Materials course at the <a href="https://www.hb.se/"University of Borås.
+This repository was originally developed by <p><a href=https://github.com/janazickler">Jana Zickler</a></p> and Ranka Gest as students in the Digitising Cultural Heritage Materials course at the <p><a href="https://www.hb.se/">University of Borås</a></p>.
