@@ -32,11 +32,11 @@
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
                     <a href="More About This Project.html">More About This Project</a> |
-                    <a href="More About Izzy Young And His Folklore Center.html">More About Izzy Young And His Folklore Center</a> |
+                    <a href="More About Izzy Young And His Folklore Centrum.html">More About Izzy Young And His Folklore Center</a> |
                     <a href="More About One Night Stand.html">More About One Night Stand</a> |
                     <a href="OCR.html">OCR</a> |
                     <a href="TEI.html">TEI</a> |
-                    <a href="Contact PAge.html">Contact Page</a> |
+                    <a href="Contact Page.html">Contact Page</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
