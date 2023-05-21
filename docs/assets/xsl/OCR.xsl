@@ -36,7 +36,7 @@
                     <a href="More About One Night Stand.html">More About One Night Stand</a> |
                     <a href="OCR.html">OCR</a> |
                     <a href="TEI.html">TEI</a> |
-                    <a href="Contact PAge.html">Contact Page</a> |
+                    <a href="Contact Page.html">Contact Page</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
