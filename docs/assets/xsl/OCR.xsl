@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Reading Text
+                    One Night Stand: OCR
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -31,9 +31,12 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="More About This Project.html">More About This Project</a> |
+                    <a href="More About Izzy Young And His Folklore Center.html">More About Izzy Young And His Folklore Center</a> |
+                    <a href="More About One Night Stand.html">More About One Night Stand</a> |
+                    <a href="OCR.html">OCR</a> |
+                    <a href="TEI.html">TEI</a> |
+                    <a href="Contact PAge.html">Contact Page</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -101,7 +104,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2023 Jana Zickler and Ranka Gest.
                       </div>
                     </div>
                 </div>
