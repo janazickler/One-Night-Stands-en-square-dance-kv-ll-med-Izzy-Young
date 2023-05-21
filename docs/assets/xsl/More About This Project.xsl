@@ -36,66 +36,22 @@
                     <a href="More About One Night Stand.html">More About One Night Stand</a> |
                     <a href="OCR.html">OCR</a> |
                     <a href="TEI.html">TEI</a> |
-                    <a href="Contact PAge.html">Contact Page</a> |
+                    <a href="Contact Page.html">Contact Page</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
-                            <div class="col-sm">
-                                <h3>Images</h3>
-                            </div>
-                            <div class="col-sm">
-                            </div>
-                            <div class="col-sm">
-                                <h3>Transcription</h3>
-                            </div>
-                        </div>
-                        <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
-                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                            <xsl:variable name="facs" select="@facs"/>
-                            <div class="row">
-                                <!-- fill the first column with this page's image -->
-                                <div class="col-sm">
-                                    <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full">
-                                            <!-- give this HTML <img> attribute three more attributes:
-                                                    @src to locate the image file
-                                                    @title for a mouse-over effect
-                                                    @alt for alternative text (in case the image fails to load, 
-                                                        and so people with a visual impairment can still understant what the image displays 
-                                                  
-                                                  in the XPath expressions below, we use the variable $facs (declared above) 
-                                                        so we can use this page's @facs element with to find the corresponding <surface>
-                                                        (because it matches with the <surface's @xml:id) 
-                                            
-                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                        we want to disregard the hashtag in the @facs attribute-->
-                                            
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>
-                                    </article>
-                                </div>
-                                <!-- fill the second column with our transcription -->
-                                <div class='col-sm'>
-                                    <article class="transcription">
-                                            <xsl:apply-templates/>                                      
-                                    </article>
-                                </div>
-                            </div>
-                        </xsl:for-each>
-                        </div>
+                            <div class="col-sm">                                  
+                  <h3>More About This Project</h3>
+                  <p>This project is a Master course assignment for the University of Borås DLIS course of Digitising Cultural Heritage Material.<br>
+                     The aim of the project is to digitise a publication that otherwise would be very difficult to find and explore.<br> This book, and its author, are interesting under various aspects, and have an importance for those who are passionate about folk music, folk dance, ethnomusicology, musicology and sociology.<br> It also presents a linguistic interest, even if involuntary, as the author, an immigrant from the USA to Sweden, is using a mix of the two countries’ languages in his writing. Izzy Young, widely referred to as the person who “discovered” Bob Dylan, is also in the field of interest of many Bob Dylans followers and fanatics.<br>
+                     The digitising process was articulated in various phases, starting with the gathering of information about the book and copyright,<br> scanning of the book’s pages, creating a searchable text document, creating a TEI coded version, and finally the publishing of this internet page, with all these materials.</p>
+               </div>
+               <div class="col-sm"></div>
+            </div>
+      </div>                    
                 </main>
                 <footer>
                 <div class="row" id="footer">
