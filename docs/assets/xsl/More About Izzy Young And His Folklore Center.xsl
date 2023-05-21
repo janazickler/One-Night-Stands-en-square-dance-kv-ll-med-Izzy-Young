@@ -31,12 +31,12 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">More About This Project</a> |
-                    <a href="reading.html">More About Izzy Young And His Folklore Center</a> |
-                    <a href="toplayer.html">More About One Night Stands</a> |
-                    <a href="diplomatic.html">OCR</a> |
-                    <a href="reading.html">TEI</a> |
-                    <a href="toplayer.html">Contact Page</a> |
+                    <a href="More About This Project.html">More About This Project</a> |
+                    <a href="More About Izzy Young And His Folklore Center.html">More About Izzy Young And His Folklore Center</a> |
+                    <a href="More About One Night Stand.html">More About One Night Stand</a> |
+                    <a href="OCR.html">OCR</a> |
+                    <a href="TEI.html">TEI</a> |
+                    <a href="Contact PAge.html">Contact Page</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
