@@ -48,7 +48,7 @@
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface">
                                         <img class="thumbnail">
-                                        <img src="Izzy Young.JPG" alt="Izzy Young" width="460" height="345">
+                                        <img src="Izzy Young.JPG" alt="Izzy Young" width="250" height="250">
                                          <xsl:attribute name="src">
                                              <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
                                          </xsl:attribute>
