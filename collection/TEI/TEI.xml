@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>TEI</title>
-            <author corresp="#WD">Jana Zickler and Ranka Gest</author>
+            <author corresp="#JZ">Jana Zickler and Ranka Gest</author>
             <principal>Jana Zickler and Ranka Gest</principal>
          </titleStmt>
          <publicationStmt>
@@ -27,7 +27,7 @@
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+            <handNote xml:id="JZ" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>

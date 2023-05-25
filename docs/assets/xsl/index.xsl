@@ -47,7 +47,7 @@
                             <div class="col-sm">
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface">
-                                        <img class="thumbnail">
+                                        <img></img> class="thumbnail">
                                         <h6>Izzy Young</h6>
                                         <img src="Izzy Young.JPG" alt="Izzy Young" width="250" height="250">
                                          <xsl:attribute name="src">
