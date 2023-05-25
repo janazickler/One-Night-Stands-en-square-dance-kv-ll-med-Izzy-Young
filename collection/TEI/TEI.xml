@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>TEI</title>
-            <author corresp="#JZ">Jana Zickler and Ranka Gest</author>
+            <title>One Night Stands: TEI transcription</title>
+            <author corresp="#IY">Izzy Young</author>
             <principal>Jana Zickler and Ranka Gest</principal>
          </titleStmt>
          <publicationStmt>
@@ -16,18 +16,18 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
-                     Transcription distributed under a CC-BY-SA 4.0 license.
+                     Original text authored by Izzy Young. Transcription distributed under a CC-BY-SA 4.0 license.
                   </p>
                </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-               <p>A two-sided post-it with a simple example phrase on either side.</p>
+               <p>At the appropriate places in TEI there are the pictures from the book "One Night Stands".</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="JZ" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+            <handNote xml:id="JZ" medium="blue-ink">Original text in blue ink, written by Jana Zickler.</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>
