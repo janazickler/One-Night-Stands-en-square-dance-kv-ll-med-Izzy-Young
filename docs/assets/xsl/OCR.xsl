@@ -92,7 +92,24 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
-                                    </article>
+                                </article>
+                                    <article id="collection">
+                                    <xsl:for-each select="//tei:surface">
+                                    <img></img> class="thumbnail">
+                                    <img src="One Night Stands 00 m.JPG" alt="Front Page" width="250" height="250">
+                                    <h6>Front Page</h6>
+                                       <xsl:attribute name="src">
+                                           <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
+                                        </xsl:attribute>
+                                         <xsl:attribute name="title">
+                                             <xsl:value-of select="tei:figure/tei:label"/>
+                                         </xsl:attribute>
+                                         <xsl:attribute name="alt">
+                                             <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                         </xsl:attribute>
+                                        </img>  
+                                    </xsl:for-each>
+                                </article>
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
