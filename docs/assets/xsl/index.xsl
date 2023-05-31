@@ -48,8 +48,8 @@
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface">
                                         <img></img> class="thumbnail">
-                                        <h6>Izzy Young</h6>
                                         <img src="Izzy Young.JPG" alt="Izzy Young" width="250" height="250">
+                                        <h6>Izzy Young</h6>
                                          <xsl:attribute name="src">
                                              <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
                                          </xsl:attribute>
@@ -60,84 +60,6 @@
                                              <xsl:value-of select="tei:figure/tei:figDesc"/>
                                          </xsl:attribute>
                                         </img>  
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride=
-"carousel"> <!-- We chose all the pages from the book to display: -->
-<div class="carousel-inner">
-<div class="carousel-item active"
-data-bs-interval="4000">
-<img class="full-image">
-<xsl:attribute name="src">
-<xsl:value-of
-select="*tei:TEI*[2]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:graphic*[1]/*@url*"
-/>
-</xsl:attribute>
-<xsl:attribute name="title">
-<xsl:value-of
-select="*tei:TEI*[2]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:label*"
-/>
-</xsl:attribute>
-<xsl:attribute name="alt">
-<xsl:value-of
-select="*tei:TEI*[2]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:figDesc*"
-/>
-</xsl:attribute>
-</img>
-</div>
-<div class="carousel-item"
-data-bs-interval="4000">
-<img class="full-image">
-<xsl:attribute name="src">
-<xsl:value-of
-select="*tei:TEI*[3]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:graphic*[1]/*@url*"
-/>
-</xsl:attribute>
-<xsl:attribute name="title">
-<xsl:value-of
-select="*tei:TEI*[3]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:label*"
-/>
-</xsl:attribute>
-<xsl:attribute name="alt">
-<xsl:value-of
-select="*tei:TEI*[3]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:figDesc*"
-/>
-</xsl:attribute>
-</img>
-</div>
-<div class="carousel-item"
-data-bs-interval="4000">
-<img class="full-image">
-<xsl:attribute name="src">
-<xsl:value-of
-select="*tei:TEI*[19]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:graphic*[1]/*@url*"
-/>
-</xsl:attribute>
-<xsl:attribute name="title">
-<xsl:value-of
-select="*tei:TEI*[19]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:label*"
-/>
-</xsl:attribute>
-<xsl:attribute name="alt">
-<xsl:value-of
-select="*tei:TEI*[19]/
-*tei:facsimile*/*tei:surface*[1]/*tei:figure*/*tei:figDesc*"
-/>
-</xsl:attribute>
-</img>
-</div>
-</div>
-</div>
-
-
-
                                     </xsl:for-each>
                                 </article>
                             </div>
