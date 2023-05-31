@@ -23,6 +23,8 @@
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
+           
+           
             <body>
                 <header>
                     <h1>
@@ -38,32 +40,18 @@
                     <a href="TEI.html">TEI</a> |
                     <a href="Contact Page.html">Contact Page</a> |
                 </nav>
-                <main id="manuscript">
+                  <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
+                    <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
-                            <div class="col-">
-                                <h3>Images</h3>
-                            </div>
-                            <div class="col-md">
-                                <h3>Transcription</h3>
-                            </div>
-                        </div>
-                        <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
-                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                            <xsl:variable name="facs" select="@facs"/>
-                            <div class="row">
-                                <!-- fill the first column with this page's image -->
-                                <div class="col-">
-                                    <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-                                        
-                                        <xsl:for-each select="//tei:surface">
-                                        <img><img> class="thumbnail">
-                                        <img src="Izzy Young.JPG" alt="Izzy Young" width="100" height="100">
-                                        <h6>Izzy Young</h6>
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <div class="col-sm">
+                                <article id="collection">
+                                    <xsl:for-each select="//tei:surface">
+                                        <img></img> class="thumbnail">
+                                        <img src="One Night Stands 00 m.JPG" alt="Font Page" width="250" height="250">
+                                        <h6>Font Page</h6>
                                          <xsl:attribute name="src">
                                              <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
                                          </xsl:attribute>
@@ -75,29 +63,32 @@
                                          </xsl:attribute>
                                         </img>  
                                     </xsl:for-each>
-                                        
-                                        
-                                        
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>
                                 </article>
-                                </div>
-                                <!-- fill the second column with our transcription -->
-                                <div class='col-md'>
-                                    <article class="transcription">
-                                        <xsl:apply-templates/>                                      
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-sm">
+                                <article id="description">
+                                  <p>
+                                    <strong>Description:</strong> &#160;
+                                    <xsl:apply-templates select="//tei:sourceDesc"/>
+                                  </p>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-sm">
+                                    <article id="details">
+                                      <p>
+                                        <strong>Author:</strong><br/>
+                                        <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
+                                      </p>
+                                      <p>
+                                        <strong>Transcription by:</strong><br/>
+                                        <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
+                                      </p>
                                     </article>
                                 </div>
-                            </div>
-                        </xsl:for-each>
+                        </div>
                     </div>
                 </main>
                 <footer>
