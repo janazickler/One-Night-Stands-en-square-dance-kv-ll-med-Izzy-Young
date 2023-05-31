@@ -50,7 +50,7 @@
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface">
                                         <img></img> class="thumbnail">
-                                        <img src="One Night Stands 00 m.JPG" alt="Font Page" width="250" height="250">
+                                        <img src="OneNightStands00m.JPG" alt="Font Page" width="250" height="250">
                                         <h6>Font Page</h6>
                                          <xsl:attribute name="src">
                                              <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
