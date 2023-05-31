@@ -59,9 +59,9 @@
                                 <div class="col-">
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-                                        <img class="thumbnail">
-                                        <img src="One Night Stands 00 m.jpg" alt="Page 40 and 41" width="500" height="333">
-                                        <h6>Page 40 and 41</h6>
+                                        <img></img> class="thumbnail">
+                                        <img src="One Night Stands 00 m.jpg" alt="Front Page" width="500" height="333">
+                                        <h6>Front Page</h6>
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
