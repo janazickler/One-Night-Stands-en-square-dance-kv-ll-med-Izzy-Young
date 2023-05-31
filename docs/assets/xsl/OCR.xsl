@@ -72,7 +72,8 @@
                                             
                                                   we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                         we want to disregard the hashtag in the @facs attribute-->
-                                            
+                                            <img src="One Night Stands 21 m.JPG" alt="Page 40 and 41" width="250" height="250">
+                                            <h6>Page 40 and 41</h6>
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
@@ -158,6 +159,4 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-
-
 </xsl:stylesheet>
