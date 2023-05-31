@@ -60,6 +60,8 @@
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
                                         <img class="thumbnail">
+                                        <img src="One Night Stands 21 m.JPG" alt="Page 40 and 41" width="250" height="250">
+                                        <h6>Page 40 and 41</h6>
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
@@ -93,8 +95,6 @@
                                             </xsl:attribute>
                                         </img>
                                 </article>
-                             <img src="One Night Stands 21 m.JPG" alt="Page 40 and 41" width="250" height="250">
-                            <h6>Page 40 and 41</h6>
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
