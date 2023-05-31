@@ -59,21 +59,11 @@
                                 <div class="col-">
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-                                        <img></img> class="thumbnail">
-                                        <img src="One Night Stands 00 m.jpg" alt="Front Page" width="500" height="333">
-                                        <h6>Front Page</h6>
-                                            <!-- give this HTML <img> attribute three more attributes:
-                                                    @src to locate the image file
-                                                    @title for a mouse-over effect
-                                                    @alt for alternative text (in case the image fails to load, 
-                                                        and so people with a visual impairment can still understant what the image displays 
-                                                  
-                                                  in the XPath expressions below, we use the variable $facs (declared above) 
-                                                        so we can use this page's @facs element with to find the corresponding <surface>
-                                                        (because it matches with the <surface's @xml:id) 
-                                            
-                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                        we want to disregard the hashtag in the @facs attribute-->
+                                        
+                                        <xsl:for-each select="//tei:surface">
+                                        <img><img> class="thumbnail">
+                                        <img src="Izzy Young.JPG" alt="Izzy Young" width="100" height="100">
+                                        <h6>Izzy Young</h6>
                                          <xsl:attribute name="src">
                                              <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
                                          </xsl:attribute>
@@ -83,7 +73,11 @@
                                          <xsl:attribute name="alt">
                                              <xsl:value-of select="tei:figure/tei:figDesc"/>
                                          </xsl:attribute>
-                                        </img> 
+                                        </img>  
+                                    </xsl:for-each>
+                                        
+                                        
+                                        
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
                                             </xsl:attribute>
