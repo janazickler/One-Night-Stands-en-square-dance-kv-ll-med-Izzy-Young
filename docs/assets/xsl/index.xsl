@@ -47,56 +47,14 @@
                             <div class="col-sm">
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface">
-                                        <img></img> class="thumbnail">
+                                        <img></img>class="thumbnail">
                                         <img src="Izzy Young.JPG" alt="Izzy Young" width="250" height="250">
                                         <h6>Izzy Young</h6>
-                                         <xsl:attribute name="src">
-                                             <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
-                                         </xsl:attribute>
-                                         <xsl:attribute name="title">
-                                             <xsl:value-of select="tei:figure/tei:label"/>
-                                         </xsl:attribute>
-                                         <xsl:attribute name="alt">
-                                             <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                         </xsl:attribute>
                                         </img>  
                                     </xsl:for-each>
                                 </article>
-                                <article id="collection">
-                                <img></img> class="thumbnail">
-                                <img src="One Night Stands 00 m.JPG" alt="Font Page" width="250" height="250">
-                                </img>
-                                </article> 
-                                <article id="collection">
-                                <img></img> class="thumbnail">
-                                <img src="One Night Stands 01 m.JPG" alt="Preface and main title page" width="250" height="250">
-                                </img>
-                                </article> 
                             </div>
-
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-sm">
-                                <article id="description">
-                                  <p>
-                                    <strong>Description:</strong> &#160;
-                                    <xsl:apply-templates select="//tei:sourceDesc"/>
-                                  </p>
-                                </article>
-                            </div>
-                        </div>
-                        <div class="row">
-                                <div class="col-sm">
-                                    <article id="details">
-                                      <p>
-                                        <strong>Author:</strong><br/>
-                                        <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
-                                      </p>
-                                      <p>
-                                        <strong>Transcription by:</strong><br/>
-                                        <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
-                                      </p>
-                                    </article>
-                                </div>
                         </div>
                     </div>
                 </main>
