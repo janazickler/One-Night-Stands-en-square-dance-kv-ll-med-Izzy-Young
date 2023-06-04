@@ -42,14 +42,6 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        <div class="row">
-                            <div class="col-">
-                                <h3>Images</h3>
-                            </div>
-                            <div class="col-md">
-                                <h3>Transcription</h3>
-                            </div>
-                        </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->

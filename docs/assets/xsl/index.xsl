@@ -24,11 +24,6 @@
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
             <body>
-                <header>
-                    <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
-                    </h1>
-                </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
                     <a href="More About This Project.html">More About This Project</a> |
@@ -46,12 +41,10 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="collection">
-                                    <xsl:for-each select="//tei:surface">
                                         <img></img>class="thumbnail">
                                         <img src="Izzy Young.JPG" alt="Izzy Young" width="250" height="250">
                                         <h6>Izzy Young</h6>
                                         </img>  
-                                    </xsl:for-each>
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
