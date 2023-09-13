@@ -3,138 +3,125 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+ 
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>ONE NIGHT STANDS - en square dance-kväll med IZZY YOUNG - digital transcription</title>
-            <author corresp="#IY">Israel Goodman Young</author> 
-            <respStmt>
-               <name>Agneta Svensk</name>
-               <resp>Illustrations</resp>
-            </respStmt>
-            <editor role="editor" xml:id="RG">Ranka Gest</editor>
-            <editor role="editor" xml:id="JZ">Jana Zickler</editor>
-            <respStmt>
-               <name>Ranka Gest</name>
-               <resp>transcription</resp>
-               <resp>encoding</resp>
-            </respStmt>
-            <respStmt>
-               <name>Jana Zickler</name>
-               <resp>transcription</resp>
-               <resp>encoding</resp>
-            </respStmt>  
-            <sponsor>University of Borås</sponsor>
-            <principal>Ranka Gest</principal>
-            <principal>Jana Zickler</principal>
-         </titleStmt>
-         <editionStmt>
-            <edition n="S2">Students' edition, second draft, substantially
-               extended, revised, and corrected.</edition>
-            <respStmt>
-               <resp>Adapted by </resp>
-               <name>Ranka Gest</name>
-            </respStmt>
-            <respStmt>
-               <resp>Adapted by </resp>
-               <name>Jana Zickler</name>
-            </respStmt>
-         </editionStmt>
-         <extent>
+     <fileDesc>
+        <titleStmt>
+           <title>ONE NIGHT STANDS - en square dance-kväll med IZZY YOUNG - digital transcription</title>
+           <author corresp="#IY">Israel Goodman Young</author>
+           <respStmt>
+              <name>Agneta Svensk</name>
+              <resp>Illustrations</resp>
+           </respStmt>
+           <editor role="editor" xml:id="RG">Ranka Gest</editor>
+           <editor role="editor" xml:id="JZ">Jana Zickler</editor>
+           <respStmt>
+              <name>Ranka Gest</name>
+              <resp>transcription</resp>
+              <resp>encoding</resp>
+           </respStmt>
+           <respStmt>
+              <name>Jana Zickler</name>
+              <resp>transcription</resp>
+              <resp>encoding</resp>
+           </respStmt>  
+           <sponsor>University of Borås</sponsor>
+           <principal>Ranka Gest</principal>
+           <principal>Jana Zickler</principal>
+        </titleStmt>
+        <editionStmt>
+           <edition n="S2">Students' edition, second draft, substantially
+              extended, revised, and corrected.</edition>
+           <respStmt>
+              <resp>Adapted by </resp>
+              <name>Ranka Gest</name>
+           </respStmt>
+           <respStmt>
+              <resp>Adapted by </resp>
+              <name>Jana Zickler</name>
+           </respStmt>
+        </editionStmt>
+        <extent>
            40pp
-         </extent>
-         <publicationStmt>
-            <publisher>The Swedish School of Library and Information Science</publisher>
-            <pubPlace>Borås</pubPlace>
-            <address>
-               <name type="institution">The Swedish School of Library and Information Science</name>
-               <street>Akademiplatsen 1</street>
-               <postCode>503 32</postCode>
-               <name type="city">Borås</name>
-               <name type="country">Sweden</name>
-            </address>
-            <availability status="free">
-               <p>
-                  This electronic edition is based on the physical book which is still copyrighted. 
-                  The copyright owner has provided verbal permission to create this TEI version.
-                  This electronic edition is made available for research and educational purposes only. 
-                  It should not be distributed or used for any commercial purposes 
-                  without explicit permission from the copyright owner.
-               </p>
-               <licence>Published under a <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution Share​Alike 4​.0 License</ref>.</licence>
-            </availability>
-            <date when="2023-05-01">May 1th 2023</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>Private Collection</repository>
-               </msIdentifier>
-               <msContents>
-                  <summary>This manuscript is a traditional folk dance handbook 
-                     written by the well known figure of a world folk music</summary>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="handbook">
-                     <supportDesc material="paper">
-                        <extent>
-                        </extent>
-                        <condition>
-                           <p>The book shows brown coloured signs of damage on it's back cover. 
-                              Pages are binded in glue and no pages are missing</p>
-                        </condition>
+        </extent>
+        <publicationStmt>
+              <p>
+                 This electronic edition is based on the physical book which is still copyrighted.
+                 The copyright owner has provided verbal permission to create this TEI version.
+                 This electronic edition is made available for research and educational purposes only.
+                 It should not be distributed or used for any commercial purposes
+                 without explicit permission from the copyright owner.
+              </p>
+              <ab>Published under a <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution Share​Alike 4​.0 License</ref></ab>
+           <ab><date when="2023-05-01">May 1th 2023</date></ab>
+        </publicationStmt>
+        <sourceDesc>
+           <msDesc>
+              <msIdentifier>
+                 <repository>Private Collection</repository>
+              </msIdentifier>
+              <msContents>
+                 <summary>This manuscript is a traditional folk dance handbook
+                    written by the well known figure of a world folk music</summary>
+              </msContents>
+              <physDesc>
+                 <objectDesc form="handbook">
+                    <supportDesc material="paper">
+                       <extent>
+                       </extent>
+                       <condition>
+                          <p>The book shows brown coloured signs of damage on it's back cover.
+                             Pages are binded in glue and no pages are missing</p>
+                       </condition>
                     </supportDesc>
-                  </objectDesc>
-                  <handDesc>
-                     <p>
+                 </objectDesc>
+                 <handDesc>
+                    <p>
                        Handbook was entirely written using the typewriter. Some corrections were made by hand.
                        That is the base for the <handShift new="#hand2"></handShift> version of the text.
-                     </p>
-                  </handDesc>
-               </physDesc>
-               
-            </msDesc>
-            <biblStruct xml:lang="en">
-               <monogr>
-                  <author>Israel Goodman Young</author>
-                  <title>ONE NIGHT STANDS - en square dance-kväll med IZZY YOUNG</title>
-                  <title type="sub">25 enkla,fina, traditionella amerikanska danser</title>
-                  <imprint>
-                     <pubPlace>Stockholm</pubPlace>
-                     <publisher>Israel G. Young och Folklore Centrum</publisher>
-                     <date when="1983">1983</date>
-                  </imprint>
-               </monogr>
-            </biblStruct>
-         </sourceDesc>
-      </fileDesc>
+                    </p>
+                 </handDesc>
+              </physDesc>             
+           </msDesc>
+           <biblStruct xml:lang="en">
+              <monogr>
+                 <author>Israel Goodman Young</author>
+                 <title>ONE NIGHT STANDS - en square dance-kväll med IZZY YOUNG</title>
+                 <title type="sub">25 enkla,fina, traditionella amerikanska danser</title>
+                 <imprint>
+                    <pubPlace>Stockholm</pubPlace>
+                    <publisher>Israel G. Young och Folklore Centrum</publisher>
+                    <date when="1983">1983</date>
+                 </imprint>
+              </monogr>
+           </biblStruct>
+        </sourceDesc>
+     </fileDesc>
      <encodingDesc>
         <projectDesc>
            <p>
-             This text is encoded as a part of a digitization project work
-             which aim is to preserve and make accessible cultural heritage material. 
-             This project work is conducted by students as a part of a 
-             Master Program course in Digital Library and
-             Information Science of the University of Borås, Sweden
+              This text is encoded as a part of a digitization project work
+              which aim is to preserve and make accessible cultural heritage material.
+              This project work is conducted by students as a part of a
+              Master Program course in Digital Library and
+              Information Science of the University of Borås, Sweden
            </p>
         </projectDesc>
         <editorialDecl>
            <p>The following editorial conventions were applied:
-           <list>
-              <item>Retained original paragraph structure.</item>
-              <item>Retained original spelling, typography and punctuation.</item>
-              <item>Hyphenated words that appear at the
-                 end of the line have been reformed.</item>
-              <item>Spaced words are normalised and tagged with<emph></emph></item>
-              <item>Words written with capital letters originally by the author in order to emphatise them, are tagged with <emph></emph></item>
-              <item>Page numbers have been excluded from the transcription.</item>
-              <item>Indications that the text continues from the previous page are erased</item>
-           </list>
+              <list>
+                 <item>Retained original paragraph structure.</item>
+                 <item>Retained original spelling, typography and punctuation.</item>
+                 <item>Hyphenated words that appear at the
+                    end of the line have been reformed.</item>
+                 <item>Spaced words are normalised and tagged with<emph></emph></item>
+                 <item>Words written with capital letters originally by the author in order to emphatise them, are tagged with <emph></emph></item>
+                 <item>Page numbers have been excluded from the transcription.</item>
+                 <item>Indications that the text continues from the previous page are erased</item>
+              </list>
            </p>
-        </editorialDecl>
-        
+        </editorialDecl>        
      </encodingDesc>
-    
      <profileDesc>
         <langUsage>
            <language ident="eng">English</language>
@@ -146,7 +133,7 @@
            <classCode scheme="illustration_type=2">schemes</classCode>
            <classCode scheme="illustration_type=3">music examples</classCode>
         </textClass>
-    </profileDesc>
+     </profileDesc>
   </teiHeader>
   <text>
       <body>
