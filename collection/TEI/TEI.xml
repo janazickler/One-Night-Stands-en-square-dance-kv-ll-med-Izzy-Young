@@ -170,7 +170,7 @@
         
             
          <figure xml:id="illus1">
-            <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Haupttitelr%C3%BCckseite.JPG"/>
+            <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Main_Title_Back_Cover.JPG"/>
             <figDesc>Illustration by Agneta Svensk.</figDesc>
          </figure>
             
@@ -321,7 +321,7 @@
          
             <p>
             <figure xml:id="illus2">
-               <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%206.JPG" n="2"/>
+               <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_6.JPG" n="2"/>
                <figDesc>Scheme created by Izzy Young.</figDesc>
             </figure>
             </p>
@@ -432,7 +432,7 @@ Det vikigaste är at gruppen håller takten.
 Cirkeln ska se ut så här efter en tur:
                
                   <figure xml:id="illus3">
-                     <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%208.JPG" n="2"/>
+                     <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_8.JPG" n="2"/>
                      <figDesc>Scheme created by Izzy Young.</figDesc>
                   </figure>
                </p>
@@ -489,7 +489,7 @@ Och tvärtom!
                         </p>
                         <p>
                         <figure xml:id="illus4">
-                           <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2010.JPG" n="2"/>
+                           <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_10.JPG" n="2"/>
                            <figDesc>Scheme created by Izzy Young.</figDesc>
                         </figure>
                         </p>
@@ -509,9 +509,9 @@ med rötter hit och dit. Nu ska man dansa som par och
 så småningom kommer man 
 att träffa 
    <!-- The original text read, 
-"kommer att träffa <handShift new="#hand1"></handShift>" 
+<handShift new="#hand1">"kommer att träffa</handShift>" 
    but it was corrected to 
-   "kommer man att träffa<handShift new="#hand2"></handShift>" -->
+   <handShift new="#hand2">"kommer man att träffa</handShift>" -->
 alla andra par i cirkeln - i alla fall de som går i motsatt riktningen.
 Två par gör en liten cirkel. Ett par siktar medsols
 och andra paret siktar medsols. Som ett hjul,s.a.s.
@@ -575,7 +575,7 @@ l. Circle left
 
                            <p>
                               <figure xml:id="illus5">
-                                 <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2011.JPG" n="2"/>
+                                 <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_11.JPG" n="2"/>
                                  <figDesc>Scheme created by Izzy Young.</figDesc>
                               </figure>
                            </p>
@@ -599,7 +599,7 @@ l. Circle left
 </p>
                         <p>
                            <figure xml:id="illus6">
-                              <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2012%2C%201.JPG" n="2"/>
+                              <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_12%2C%201.JPG" n="2"/>
                               <figDesc>Scheme created by Izzy Young.</figDesc>
                            </figure>
                         </p>
@@ -627,7 +627,7 @@ dansa med. Man känner en fin <emph>swoosh</emph>. Wow!
                         </p>
                         <figure xml:id="illus8">
                            <head>The Running Set…</head>
-                           <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2013.JPG" n="1"/>
+                           <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_13.JPG" n="1"/>
                            <figDesc>Illustration by Agneta Svensk.</figDesc>
                         </figure>
                      
@@ -736,7 +736,7 @@ of Yarn!
 </p>
                               <p>
                                  <figure xml:id="illus9">
-                                    <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2016.JPG" n="2"/>
+                                    <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_16.JPG" n="2"/>
                                     <figDesc>Scheme created by Izzy Young.</figDesc>
                                  </figure>
                               </p>
@@ -872,7 +872,7 @@ Active couples on to the next.
 
                         <figure xml:id="illus10">
                            <head>Square Dance…..</head>
-                           <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2019.JPG" n="1"/>
+                           <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_19.JPG" n="1"/>
                            <figDesc>Illustration by Agneta Svensk.</figDesc>
                         </figure>
          <!--  SQUAREDANCE section -->
@@ -883,7 +883,7 @@ Active couples on to the next.
                            <p>
                               <figure xml:id="illus11">
                                  <head>A Square Set:</head>
-                                 <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2020.JPG" n="2"/>
+                                 <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_20.JPG" n="2"/>
                                  <figDesc>Scheme created by Izzy Young.</figDesc>
                               </figure>
                            </p>
@@ -1420,7 +1420,7 @@ Men inte när man börjar…..
                                <div type="eng">
                                <p>
                     <figure xml:id="illus">
-                       <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2029.JPG" n="2"/>
+                       <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_29.JPG" n="2"/>
                     <figDesc>Scheme created by Izzy Young.</figDesc>
                     </figure>
                  </p>
@@ -1553,7 +1553,7 @@ Men inte när man börjar…..
                  går bäst med fyra eller fem par.</p>
                  </div>
                <figure xml:id="illus12">
-                  <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2032.JPG" n="2"/>
+                  <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_32.JPG" n="2"/>
               <figDesc>Scheme created by Izzy Young.</figDesc>
               </figure>
               
@@ -1664,7 +1664,7 @@ Men inte när man börjar…..
                  <p>(music notes)</p>
                  <p>
                  <figure xml:id="illus13">
-                    <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2033.JPG" n="3"/>
+                    <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_33.JPG" n="3"/>
                     <figDesc>Music notes example.</figDesc>
                  </figure>
                  </p>
@@ -1952,7 +1952,7 @@ Men inte när man börjar…..
                  (the illustration)</p>
                  <p>
                  <figure xml:id="illus14">
-                    <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2038.JPG" n="1"/>
+                    <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_38.JPG" n="1"/>
                  <figDesc>Illustration created by Agneta Svensk.</figDesc>
                  </figure>
                  </p>
@@ -2036,7 +2036,7 @@ Men inte när man börjar…..
                           <p>76. Jessie Polka
                           (music notes)
                           <figure xml:id="illus18">
-                             <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2040%2C%201.JPG" n="3"/>
+                             <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_40%2C%201.JPG" n="3"/>
                              <figDesc>Music notes example</figDesc>
                           </figure>
                           </p>
@@ -2050,7 +2050,7 @@ Men inte när man börjar…..
                              
                           <p>(music notes)
                           <figure xml:id="illus19">
-                             <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Seite%2040%2C%202.JPG" n="3"/>
+                             <graphic url="https://github.com/janazickler/One-Night-Stands-en-square-dance-kv-ll-med-Izzy-Young/blob/main/collection/IMG/Page_40%2C%202.JPG" n="3"/>
                           <figDesc>Music notes example.</figDesc>
                           </figure>
                           </p>
